@@ -1377,14 +1377,68 @@
           "category": "Contributed",
           "url": "https://felias-fogg.github.io/MegaCore/MegaCore-3.1.0-r1.tar.bz2",
           "archiveFileName": "MegaCore-3.1.0-r1.tar.bz2",
-          "checksum": "SHA-256:c00c75af813e1d77267b551a6a4dc9c8a0797f329087e65fe7e8dd51d8a779f0",
-          "size": "1645909",
+          "checksum": "SHA-256:f05d14e986c582437ed75f83b6907f9187ca8468a544b90acbc8a6a4d0fd435e",
+          "size": "1645914",
           "boards": [
             {
-              "name": "ATmega162"
+              "name": "ATmega6490"
             },
             {
-              "name": "ATmega8515"
+              "name": "ATmega6450"
+            },
+            {
+              "name": "ATmega3290"
+            },
+            {
+              "name": "ATmega3250"
+            },
+            {
+              "name": "ATmega2561"
+            },
+            {
+              "name": "ATmega2560"
+            },
+            {
+              "name": "ATmega1281"
+            },
+            {
+              "name": "ATmega1280"
+            },
+            {
+              "name": "ATmega649"
+            },
+            {
+              "name": "ATmega645"
+            },
+            {
+              "name": "ATmega640"
+            },
+            {
+              "name": "ATmega329"
+            },
+            {
+              "name": "ATmega325"
+            },
+            {
+              "name": "ATmega169"
+            },
+            {
+              "name": "ATmega165"
+            },
+            {
+              "name": "ATmega128"
+            },
+            {
+              "name": "ATmega64"
+            },
+            {
+              "name": "AT90CAN128"
+            },
+            {
+              "name": "AT90CAN64"
+            },
+            {
+              "name": "AT90CAN32"
             }
           ],
           "toolsDependencies": [
