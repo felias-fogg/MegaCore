@@ -1463,6 +1463,100 @@
               "version": "1.1.0"
             }
           ]
+        },
+        {
+          "name": "MegaCore",
+          "architecture": "avr",
+          "version": "3.1.0-pre3",
+          "category": "Contributed",
+          "url": "https://felias-fogg.github.io/MegaCore/MegaCore-3.1.0-pre3.tar.bz2",
+          "archiveFileName": "MegaCore-3.1.0-pre3.tar.bz2",
+          "checksum": "SHA-256:033ad905ed75f122151048af68fdb339978fb3db55977105667c0ddbb132f607",
+          "size": "1648360",
+          "boards": [
+            {
+              "name": "ATmega6490"
+            },
+            {
+              "name": "ATmega6450"
+            },
+            {
+              "name": "ATmega3290"
+            },
+            {
+              "name": "ATmega3250"
+            },
+            {
+              "name": "ATmega2561"
+            },
+            {
+              "name": "ATmega2560"
+            },
+            {
+              "name": "ATmega1281"
+            },
+            {
+              "name": "ATmega1280"
+            },
+            {
+              "name": "ATmega649"
+            },
+            {
+              "name": "ATmega645"
+            },
+            {
+              "name": "ATmega640"
+            },
+            {
+              "name": "ATmega329"
+            },
+            {
+              "name": "ATmega325"
+            },
+            {
+              "name": "ATmega169"
+            },
+            {
+              "name": "ATmega165"
+            },
+            {
+              "name": "ATmega128"
+            },
+            {
+              "name": "ATmega64"
+            },
+            {
+              "name": "AT90CAN128"
+            },
+            {
+              "name": "AT90CAN64"
+            },
+            {
+              "name": "AT90CAN32"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MegaCore",
+              "name": "avrdude",
+              "version": "8.0-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "MegaCore",
+              "name": "avrocd-tools",
+              "version": "1.1.1"
+            }
+          ]
         }
       ],
       "tools": [
@@ -1669,6 +1763,68 @@
               "host": "i686-mingw32",
               "archiveFileName": "avrocd-tools-1.1.0-i686-mingw32.tar.gz",
               "url": "https://github.com/felias-fogg/PyAvrOCD/releases/download/v1.1.0/avrocd-tools-1.1.0-i686-mingw32.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "avrocd-tools",
+          "version": "1.1.1",
+          "systems": [
+            {
+              "size": "1071",
+              "checksum": "SHA-256:7e1f9247f70945747f96e5aa6f7f6c9d5d9ef9037ef39e08d3737703f7423eca",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avrocd-tools-1.1.1-arm-linux-gnueabihf.tar.gz",
+              "url": "https://github.com/felias-fogg/PyAvrOCD/releases/download/v1.1.1/avrocd-tools-1.1.1-arm-linux-gnueabihf.tar.gz"
+            },
+            {
+              "size": "36090237",
+              "checksum": "SHA-256:747e56d210683e01978a2a8e6d60d436f6293b74b356718155c438c709d7873e",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "avrocd-tools-1.1.1-aarch64-linux-gnu.tar.gz",
+              "url": "https://github.com/felias-fogg/PyAvrOCD/releases/download/v1.1.1/avrocd-tools-1.1.1-aarch64-linux-gnu.tar.gz"
+            },
+            {
+              "size": "26894117",
+              "checksum": "SHA-256:7e564e77ef73d77a319c1ab9c565b72ece4021d2adae5c548a0d149730c74802",
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "avrocd-tools-1.1.1-x86_64-apple-darwin.tar.gz",
+              "url": "https://github.com/felias-fogg/PyAvrOCD/releases/download/v1.1.1/avrocd-tools-1.1.1-x86_64-apple-darwin.tar.gz"
+            },
+            {
+              "size": "36439870",
+              "checksum": "SHA-256:319428fabd6dab0249a4fb6a94f887bf743a5df94beaa2605c4421499dbd9667",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avrocd-tools-1.1.1-x86_64-linux-gnu.tar.gz",
+              "url": "https://github.com/felias-fogg/PyAvrOCD/releases/download/v1.1.1/avrocd-tools-1.1.1-x86_64-linux-gnu.tar.gz"
+            },
+            {
+              "size": "1077",
+              "checksum": "SHA-256:cfb3565e4b64157126163a61ac2166ff4df6cc83b788bd777bb157c389497345",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avrocd-tools-1.1.1-i686-linux-gnu.tar.gz",
+              "url": "https://github.com/felias-fogg/PyAvrOCD/releases/download/v1.1.1/avrocd-tools-1.1.1-i686-linux-gnu.tar.gz"
+            },
+            {
+              "size": "17575407",
+              "checksum": "SHA-256:983605025b8c5d1982a19ff6359ed8a6a2a9e85ca212d423f16bed05e056c285",
+              "host": "x86_64-mingw32",
+              "archiveFileName": "avrocd-tools-1.1.1-x86_64-mingw32.tar.gz",
+              "url": "https://github.com/felias-fogg/PyAvrOCD/releases/download/v1.1.1/avrocd-tools-1.1.1-x86_64-mingw32.tar.gz"
+            },
+            {
+              "size": "25368171",
+              "checksum": "SHA-256:7952606c8c4ed86b2121537900548078bde072f3b4ebf979a1e168860e9fb099",
+              "host": "arm64-apple-darwin",
+              "archiveFileName": "avrocd-tools-1.1.1-arm64-apple-darwin.tar.gz",
+              "url": "https://github.com/felias-fogg/PyAvrOCD/releases/download/v1.1.1/avrocd-tools-1.1.1-arm64-apple-darwin.tar.gz"
+            },
+            {
+              "size": "15583839",
+              "checksum": "SHA-256:82bd8895cad415e94e1a01c5aecad638d85f23810fa41dc943f3a582bad417af",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrocd-tools-1.1.1-i686-mingw32.tar.gz",
+              "url": "https://github.com/felias-fogg/PyAvrOCD/releases/download/v1.1.1/avrocd-tools-1.1.1-i686-mingw32.tar.gz"
             }
           ]
         }
